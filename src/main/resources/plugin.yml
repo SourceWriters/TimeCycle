@@ -1,0 +1,15 @@
+main: com.syntaxphoenix.spigot.timecycle.TimeCycle
+name: TimeCycle
+author: Lauriichan
+version: ${project.version}
+api-version: 1.14
+
+commands:
+  timecycle:
+    description: Choose the language you want the messages of TimeCycle in
+    usage: /timecycle <language>
+    
+permissions:
+  timecycle.reload:
+    description: Allows you to reload the plugins language system
+    default: op
