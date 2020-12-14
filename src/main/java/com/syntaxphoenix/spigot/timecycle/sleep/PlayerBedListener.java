@@ -57,7 +57,6 @@ public class PlayerBedListener implements Listener {
 		}
 		STORAGE.decSleeping(world.getUID());
 		STORAGE.update(world);
-		event.getPlayer().setBedSpawnLocation(event.getPlayer().getLocation());
 	}
 
 	@EventHandler(priority = EventPriority.HIGHEST)
